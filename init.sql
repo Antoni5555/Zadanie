@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS screenshots (
+    id SERIAL PRIMARY KEY,
+    url VARCHAR UNIQUE NOT NULL,
+    minio_path VARCHAR NOT NULL
+);
